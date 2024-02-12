@@ -1,0 +1,11 @@
+<h3>Total Checked In <strong>{{count}}</strong>/{{passengerList.length}}</h3>
+<ul class="list-group" *ngFor="let passenger of passengerList">
+    <li class="list-group-item" >
+        <!-- <p>{{passenger.fullname}}</p> -->
+        <p>{{passenger.fullname}}</p>
+        <!-- <p>{{passenger.checkedIn | count}}</p> -->
+        <!-- <p >{{passenger.checkInDate ? (passenger.checkInDate | date : 'medium'): 'Not Checked In'}}</p> -->
+    </li>
+</ul>
+<!-- <input type="text" [(ngModel)]="val">
+        <p>{{val}}</p> -->

@@ -1,0 +1,23 @@
+
+.green{
+    color: green;
+    background-color:green;
+    
+}
+.red{
+    color: red;
+    background-color:red;
+}
+
+.symbol{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    align-self: center;
+}
+.form-control:disabled, .form-control[readonly] {
+    background-color: transparent;
+    opacity: 1;
+    border : transparent;
+}
